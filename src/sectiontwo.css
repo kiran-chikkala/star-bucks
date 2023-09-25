@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.second-div{
+    display: flex;
+    width:100%;
+    background-color:rgb(30, 57, 50);
+    height: 15vh;
+    letter-spacing: -0.1px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-around;
+    vertical-align: baseline;
+    line-height: 24px;
+    color: white;
+  }
+  .second-div button{
+    width: 100px;
+    height: 40px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color:rgb(30, 57, 50);
+    color: white;
+  }

@@ -1,0 +1,99 @@
+#main-container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 50px;
+
+}
+ #sliders{
+    width: 100%;
+    height: 100%;
+    background-color:#edebe9;
+    white-space:nowrap;
+    overflow-x:scroll;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+#sliders::-webkit-scrollbar{
+display: none;
+}
+.slider-icons.left,.slider-icons.right{
+    background-color: rgb(255, 255, 255);
+   border-radius: 100%;
+   position: absolute;
+   opacity: 0.2;
+  
+}
+.slider-icons.left:hover,.slider-icons.right:hover{
+    opacity: 1 ;
+}
+.slider-icons.left{
+    left: 0;
+}
+.slider-icons.right{
+    right: 0;
+}
+.card-slider{
+    width: 402px;
+    height:178px;
+    background-color:  #fff;
+    border-radius: 10px;
+    display:inline-block;
+    margin-right: 64px;
+    margin-left: 40px;
+    margin-top: 109px;
+}
+.inside-card{
+    width: 100%;
+    height: 100%;
+   display: flex;
+   
+}
+.part-1{
+    width: 65%;
+    height: 71%;
+    display: flex;
+    flex-direction: column;
+  
+}
+.part-1 h4{
+    margin-left: 17px;
+    margin-top: 10px;
+}
+.slider-image{
+    width: 90%;
+    height: 47%;
+    background-color:rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-sizing: border-box;
+   
+}
+.part-2{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+justify-content: space-between;
+
+}
+.part-2 h4{
+    position: relative;
+    margin-top: 37px;
+    margin-right: 67px;
+}
+.part-2 button{
+    border: none;
+    outline: none;
+    color: #fff;
+    margin: 19px 17px;
+    padding: 7px 7px;
+    background-color: #00754a;
+    border-radius: 14px;
+    box-shadow: 0px 0px 5px 1px black;
+
+}
