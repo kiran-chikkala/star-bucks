@@ -17,7 +17,7 @@ const slides=[
   ]
 function App(){
     return(
-        <div>
+        <div>~
        <Navigation/>
        <SectionTwo/>
        <Menu/>
